@@ -1,14 +1,13 @@
-
 # Quiz questions and answers
 questions = [
     {
-        "question": "who told gita to lord arjuna",
-        "options": ["A. Lord duryodhana", "B. Lord  sri krishna", "C. Lord bhishma", "D. Lord drona"],
+        "question": "Who told the Gita to Lord Arjuna?",
+        "options": ["A. Lord Duryodhana", "B. Lord Sri Krishna", "C. Lord Bhishma", "D. Lord Drona"],
         "answer": "B"
     },
     {
-        "question": "Who wrote bhagavad gita in sanskrit ?",
-        "options": ["A. veda vyasa", "B. valmiki", "C. tulsidas", "D. nannayya"],
+        "question": "Who wrote Bhagavad Gita in Sanskrit?",
+        "options": ["A. Veda Vyasa", "B. Valmiki", "C. Tulsidas", "D. Nannayya"],
         "answer": "A"
     },
     {
@@ -17,13 +16,14 @@ questions = [
         "answer": "B"
     },
     {
-        "question": "what is the chemical formula of water?","options":["A.H0","B.HO2","C.H2O","D.H3O"],
+        "question": "What is the chemical formula of water?",
+        "options": ["A. H0", "B. HO2", "C. H2O", "D. H3O"],
         "answer": "C"
     },
     {
-        "question" : "what is captial of india?"
-        ,"options":["A.Mumbai","B.Delhi","C.New delhi","D.banglore"],
-        "answer":"C"
+        "question": "What is the capital of India?",
+        "options": ["A. Mumbai", "B. Delhi", "C. New Delhi", "D. Bangalore"],
+        "answer": "C"
     }
 ]
 
@@ -52,5 +52,5 @@ def main():
     print("\nQuiz ended! Your final score is:", score)
 
 # Entry point of the program
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
